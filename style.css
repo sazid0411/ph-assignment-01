@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Font Family */
+/* font-family: "Fira Sans", serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F1F1F3;
+    font-family: "Fira Sans", serif;
+}
+/* Common Component */
+.btn{
+    background-color: #006A50;
+    padding: 17px 34px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.card-btn{
+    padding: 11px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 33px;
+}
+
+
+
+/* Header CSS */
+.navbar{
+    margin: 0 auto;
+    width: 1600px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h2{
+    margin-left: 160px;
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.navbar .btn-signin{
+    padding: 15px 30px;
+    color: #006A50;
+    background-color: #F1F1F3;
+    border: 2px solid #006A50;
+    margin-right: 160px;
+}
+.banner{
+    width: 1280px;
+    height: 560px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    gap: 64px;
+}
+.banner .banner-text{
+    width: 622px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.banner .banner-text .bunner-subtitle{
+    font-size: 24px;
+    font-weight: 600;
+    color: #0E0E0E;
+    opacity: .5;
+    margin-bottom: 16px;
+}
+.banner .banner-text .banner-title{
+    font-size: 56px;
+    font-weight: 800;
+    color: #0E0E0E;
+    margin-bottom: 40px;
+}
+/* Main CSS */
+
+/* Section Vision */
+.vision{
+    width: 1280px;
+    height: 765px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.vision .vision-title{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.vision .vision-subtitle{
+    font-size: 16px;
+    opacity: .7;    
+
+}
+.vision .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.vision .cards .card{
+    width: 410px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;    
+    border-radius: 16px;
+    gap: 24px;
+}
+.vision .cards .card img{
+    margin-left: 33px;
+}
+.vision .cards .card .card-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 33px;
+    margin-bottom: 12px;
+}
+.vision .cards .card .card-description{
+    font-size: 16px;
+    opacity: .7;
+    margin: 0 33px;
+    /* text-align: justify; */
+}
+/* Vision Card Background Color and Button Color */
+.card-blue{
+    background-color: rgba(84, 144, 245, .2);
+}
+.card-green{
+    background-color: #C6E4D6;
+}
+.card-orange{
+    background-color: #F7EBCF;
+}
+.btn-blue{
+    background-color: #5490F5;
+}
+.btn-green{
+    margin-top: 18px;
+    background-color: #09A15C;
+}
+.btn-orange{
+    background-color: #FFC239;
+}
+/* Vision Section Quote */
+.vision .quote{
+    width: 1280px;
+    height: 230px;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 16px;
+    background-color: white;
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 24px 24px
+}
+.vision .quote .quote-text{
+    font-size: 16px;
+    margin-left:24px ;
+    margin-top: 48px;
+    margin: 48px 24px 0 24px;
+    text-align: justify;
+}
+.vision .quote .quote-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 24px;
+    margin-top: 12px;
+}
+.vision .quote .quote-degi{
+    font-size: 16px;
+    opacity: .6;
+    margin-left: 24px;
+    margin-top: 4px;
+}
+
+/* Recent News */
+.recent{
+    width: 1280px;
+    height: 1406px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+}
+.recent .recent-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.recent .recent-desc{
+    font-size: 16px;
+    opacity: .7;
+}
+.recent-news-card{
+    height: 1280px;
+    height: 402px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    background-color: white;
+    border-radius: 24px;
+}
+.recent-news-card .news-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.recent-news-card .news{
+    font-size: 16px;
+    opacity: .7;
+    margin-bottom: 32px;
+}
+
+.middle{
+    margin-left: 48px;
+}
+.time{
+    display: flex;
+    gap: 12px;
+}
+.time>span{
+    font: 16px;
+    opacity: .7;
+    margin: 12px 0;
+}  
+.recent-news-card >img{
+    border-radius: 24px ;
+ 
+}
+.recent-news-card .left{
+    margin: 48px 0 48px 48px;
+}
+.recent-news-card .right{
+    margin: 48px  48px 0 48px;
+}
+/* Footer CSS */
