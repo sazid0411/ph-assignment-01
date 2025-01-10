@@ -252,4 +252,62 @@ body{
 .recent-news-card .right{
     margin: 48px  48px 0 48px;
 }
+
+/* Donate Section */
+.donate{
+    width: 1280px;
+    height: 464px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-between;
+}
+.donate .donate-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.donate .donate-desc{
+    font-size: 16px;
+    opacity: .7;
+    text-align: center;
+}
+
+.money{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.money .taka{
+    width: 240px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:16px ;
+    font-size: 40px;
+    font-weight: bold;
+}
+.bg{
+    background-color: #C6E4D6;
+}
+.no-bg{
+    background-color: white;  
+}
+.no-bg:hover{
+    background-color: #C6E4D6;
+}
+
+.donate > input[type="text"]{
+    width: 1010px;
+    height: 64px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    color: #0E0E0E;   
+    background: white;
+}
+
 /* Footer CSS */
