@@ -297,10 +297,10 @@ body{
  
 }
 .recent-news-card .left{
-    margin: 48px 0 48px 48px;
+    margin: 0px 0 0px 48px;
 }
 .recent-news-card .right{
-    margin: 48px  48px 0 48px;
+    margin: 0px  48px 0 48px;
 }
 
 /* Donate Section */
@@ -358,6 +358,8 @@ body{
     font-size: 20px;
     color: #0E0E0E;   
     background: white;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 3px;
 }
 
 /* Newsletter Section */
