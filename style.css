@@ -16,9 +16,16 @@ body{
     background-color: #006A50;
     padding: 17px 34px;
     font-size: 18px;
+    font-weight: 600;
     color: white;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover{
+    font-size: 18.2px;
+    background: linear-gradient(to right,rgba(60,145,10.8),rgba(29,74,53.8));
+    transition: .5  ease-in-out;
 }
 .card-btn{
     padding: 11px 20px;
@@ -51,9 +58,14 @@ body{
     padding: 15px 30px;
     color: #006A50;
     background-color: #F1F1F3;
-    border: 2px solid #006A50;
+    border: 1px solid #006A50;
     margin-right: 160px;
 }
+.navbar .btn-signin:hover{
+    background-color: #C6E4D6;
+    color: white;
+}
+
 .banner{
     width: 1280px;
     height: 560px;
@@ -87,6 +99,39 @@ body{
     margin-bottom: 40px;
 }
 /* Main CSS */
+
+/* Piller Section */
+.piller{
+    width: 1280px;
+    margin: 40px auto;
+}
+.piller .piller-title{
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.piller-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    
+}
+.piller .piller-cards .piller-card{
+    width: 254px;
+    height: 196px;
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+}
+.piller .piller-cards .piller-card >h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 24px 0 12px 0;
+}
+.piller .piller-cards .piller-card >p{
+    font-size: 16px;
+    opacity: .7;
+}
 
 /* Section Vision */
 .vision{
@@ -310,4 +355,74 @@ body{
     background: white;
 }
 
+/* Newsletter Section */
+.newsletter{
+    width: 1280px;
+    height: 395px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #C6E4D6;
+    border-radius: 24px;
+}
+.newsletter .newsletter-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.newsletter .newsletter-desc{
+    font-size: 16px;
+    opacity: .7;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+.newsletter .mail-input{
+    width: 700px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+input[type="email"]{
+    padding: 18px 40px; 
+    width:  600px;
+    border: none;
+    border-radius:  8px 0 0 8px ;
+    font-size: 16px;
+
+}
+input[type="submit"]{
+    border-radius: 0 8px 8px 0;
+}
+
+.newsletter .msg{
+    font-size: 16px;
+    opacity: .7;
+}
+
+
+
 /* Footer CSS */
+footer{
+    width: 1600px;
+    height: 226px;
+    margin: 40px auto 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    width: 80%;
+    margin: 32px 0;
+    opacity: .2;
+}
+.icons{
+    display: flex;
+    gap: 24px;
+}
